@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="422.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <children>
+      <Pane layoutX="-4.0" prefHeight="422.0" prefWidth="628.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXTextField fx:id="UNTextField" layoutX="358.0" layoutY="115.0" maxWidth="207.0" minWidth="207.0" prefHeight="31.0" prefWidth="207.0" promptText="ID" unFocusColor="#0d0d0d" />
+            <JFXPasswordField fx:id="PassFiled" focusColor="#fefeff" layoutX="358.0" layoutY="207.0" maxWidth="207.0" minWidth="207.0" prefHeight="31.0" prefWidth="207.0" promptText="Password" />
+            <Line endX="30.0" endY="123.0" layoutX="256.0" layoutY="192.0" startX="30.0" startY="-96.0" />
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutX="358.0" layoutY="285.0" onAction="#Submit" prefHeight="31.0" prefWidth="207.0" ripplerFill="#00a9ff" text="Submit">
+               <font>
+                  <Font name="Times New Roman Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <Pane layoutX="47.0" layoutY="96.0" prefHeight="200.0" prefWidth="234.0">
+               <children>
+                  <ImageView fitHeight="101.0" fitWidth="179.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@64884.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#1e0101" fontSmoothingType="LCD" layoutX="14.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Landlord Association of Mandeville" wrappingWidth="206.99999606609344">
+                     <font>
+                        <Font name="Sitka Display" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text layoutX="351.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't Have an Account?" wrappingWidth="132.99999916553497" />
+            <JFXButton layoutX="478.0" layoutY="359.0" onAction="#RegLink" text="Click Here" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

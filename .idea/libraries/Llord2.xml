@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Llord2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Llord/Llord/Llord/dist/Llord.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

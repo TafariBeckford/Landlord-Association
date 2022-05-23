@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Llord/Llord/Llord/dist/run908881843/lib/jfoenix-8.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Llord/Llord/Llord/dist/run908881843/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Llord/Llord/Llord/dist/run908881843/lib/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Llord/Llord/Llord/dist/run908881843/lib/activation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
